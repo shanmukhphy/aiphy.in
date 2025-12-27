@@ -1,2 +1,2 @@
 # aiphy.in
-AiPhy Scintific solutions
+AiPhy Scientific solutions
