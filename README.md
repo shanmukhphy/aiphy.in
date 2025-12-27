@@ -1,6 +1,6 @@
 # aiphy.in
 AiPhy Scientific solutions
-<!DOCTYPE html>
+<!Home html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -55,7 +55,7 @@ AiPhy Scientific solutions
 <body>
 
 <header>
-    <h1>Welcome to My Professional Website</h1>
+    <h1>Welcome to AiPhy Scientific solutions</h1>
 </header>
 
 <nav>
@@ -66,7 +66,7 @@ AiPhy Scientific solutions
 
 <section id="about">
     <h2>About Me</h2>
-    <p>Hello! I’m M Shanmukha Rao, and this is my personal website. Here I showcase my work, projects, and interests. I’m passionate about Materials Physics.</p>
+    <p>Hello! I’m Shanmukha Rao, and this is my personal website. Here I showcase my work, projects, and interests. I’m passionate about Materials Physics.</p>
 </section>
 
 <section id="projects">
