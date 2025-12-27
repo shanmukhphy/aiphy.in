@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to AiPhy Solutions</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #0073e6;
+            font-weight: bold;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #eee;
+            margin-top: 40px;
+        }
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Professional Website</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m [M Shanmukha Rao], and this is my personal website. Here I showcase my work, projects, and interests. I’m passionate about [your field or hobby].</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <p>Check out some of my projects below:</p>
+    <ul>
+        <li>Project 1 – <a href="#">View Details</a></li>
+        <li>Project 2 – <a href="#">View Details</a></li>
+        <li>Project 3 – <a href="#">View Details</a></li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you’d like to get in touch, feel free to <a class="button" href="mailto:shanmukh@aiphy.in">Email Me</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 [M Shanmukha Rao]. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
