@@ -86,6 +86,7 @@ AiPhy Scientific solutions
 
 <footer>
     <p>&copy; 2025 [M Shanmukha Rao]. All rights reserved.</p>
+    <AiPhy Scientific Solutions_aiphy.in>
 </footer>
 
 </body>
