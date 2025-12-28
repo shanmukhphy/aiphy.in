@@ -1,6 +1,6 @@
 # aiphy.in
 AiPhy Scientific solutions
-<page under maintainance>
+<page under maintenance>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
