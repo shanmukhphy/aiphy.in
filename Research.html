@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Jane Doe | Research Portfolio</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+  <!-- Navigation -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#about" class="text-xl font-bold tracking-tight text-slate-900">Jane Doe, Ph.D.</a>
+      <nav class="space-x-6 text-sm font-medium text-slate-600">
+        <a href="#about" class="hover:text-blue-600 transition">About</a>
+        <a href="#research" class="hover:text-blue-600 transition">Research</a>
+        <a href="#publications" class="hover:text-blue-600 transition">Publications</a>
+        <a href="#teaching" class="hover:text-blue-600 transition">Teaching & Service</a>
+        <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-12 space-y-20">
+
+    <!-- Hero / About Section -->
+    <section id="about" class="grid md:grid-cols-3 gap-10 items-start">
+      <div class="md:col-span-1 flex flex-col items-center md:items-start space-y-4">
+        <div class="w-48 h-48 rounded-2xl bg-slate-200 border border-slate-300 flex items-center justify-center text-slate-400 overflow-hidden shadow-sm">
+          <i class="fa-solid fa-user text-6xl"></i>
+          <!-- Replace icon with an img tag:
+          <img src="profile.jpg" alt="Profile" class="w-full h-full object-cover">
+          -->
+        </div>
+        <div class="text-center md:text-left">
+          <h1 class="text-2xl font-bold text-slate-900">Dr. Jane Doe</h1>
+          <p class="text-sm text-slate-600">Postdoctoral Fellow / Researcher</p>
+          <p class="text-xs text-slate-500 mt-1">Department of Physics & Materials Science</p>
+        </div>
+        <!-- Academic Links -->
+        <div class="flex gap-4 text-lg text-slate-600 pt-2">
+          <a href="https://scholar.google.com" target="_blank" class="hover:text-blue-600" title="Google Scholar"><i class="fa-solid fa-graduation-cap"></i></a>
+          <a href="https://orcid.org" target="_blank" class="hover:text-green-600" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+          <a href="https://github.com" target="_blank" class="hover:text-black" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="hover:text-blue-700" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="#" class="inline-flex items-center px-4 py-2 text-sm font-medium rounded-lg text-white bg-blue-600 hover:bg-blue-700 transition">
+          <i class="fa-solid fa-file-arrow-down mr-2"></i> Download CV
+        </a>
+      </div>
+
+      <div class="md:col-span-2 space-y-4 text-slate-700 leading-relaxed">
+        <h2 class="text-2xl font-bold text-slate-900">Overview</h2>
+        <p>
+          I am a researcher specializing in functional nanomaterials, 2D heterostructures, and interfacial kinetics for renewable energy and sensor devices. My work combines synthesis techniques with advanced spectroscopic characterization and high-performance computational simulations.
+        </p>
+        <p>
+          Currently, my research focuses on scalable synthesis routes, heterojunction band engineering, and charge-transfer mechanisms for catalytic and electronic devices.
+        </p>
+        <div class="pt-4 border-t border-slate-200">
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-slate-500 mb-2">Core Competencies</h3>
+          <div class="flex flex-wrap gap-2 text-xs font-medium">
+            <span class="px-2.5 py-1 bg-slate-200/80 rounded-md">2D Materials</span>
+            <span class="px-2.5 py-1 bg-slate-200/80 rounded-md">Thin-Film Heterostructures</span>
+            <span class="px-2.5 py-1 bg-slate-200/80 rounded-md">XPS & Raman Spectroscopy</span>
+            <span class="px-2.5 py-1 bg-slate-200/80 rounded-md">Electrochemical Impedance</span>
+            <span class="px-2.5 py-1 bg-slate-200/80 rounded-md">DFT Modeling</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Focus -->
+    <section id="research" class="space-y-6">
+      <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3">Research Focus</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+          <div class="text-blue-600 text-2xl mb-3"><i class="fa-solid fa-atom"></i></div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Heterojunction Band Engineering</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Investigating interfacial band alignments, charge carrier migration kinetics, and surface charge separation to enhance efficiency in catalytic platforms.
+          </p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+          <div class="text-blue-600 text-2xl mb-3"><i class="fa-solid fa-microchip"></i></div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Scalable Synthesis & Laser Processing</h3>
+          <p class="text-sm text-slate-600 leading-relaxed">
+            Developing sustainable, direct-write laser ablation protocols and physical deposition methods on flexible and organic substrate architectures.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="space-y-6">
+      <div class="flex justify-between items-baseline border-b border-slate-200 pb-3">
+        <h2 class="text-2xl font-bold text-slate-900">Selected Publications</h2>
+        <a href="https://scholar.google.com" target="_blank" class="text-sm text-blue-600 hover:underline">Full Google Scholar profile &rarr;</a>
+      </div>
+      <div class="space-y-4">
+        <!-- Item 1 -->
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+          <h3 class="text-base font-semibold text-slate-900">
+            Interface Charge Transport Kinetics in Scalable Metal Oxide–Graphene Architectures
+          </h3>
+          <p class="text-sm text-slate-600">
+            <span class="font-bold text-slate-800">Jane Doe</span>, A. Collaborator, B. Scientist.
+          </p>
+          <p class="text-xs font-medium text-slate-500 italic">Journal of Materials Research, 2025</p>
+          <div class="pt-2 flex gap-3 text-xs">
+            <a href="#" class="text-blue-600 hover:underline"><i class="fa-solid fa-link mr-1"></i>DOI</a>
+            <a href="#" class="text-blue-600 hover:underline"><i class="fa-solid fa-file-pdf mr-1"></i>Preprint</a>
+            <a href="#" class="text-blue-600 hover:underline"><i class="fa-solid fa-database mr-1"></i>Data/Code</a>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+          <h3 class="text-base font-semibold text-slate-900">
+            Direct Laser Induction of Graphene on Bio-Derived Substrates for Electrochemical Sensing
+          </h3>
+          <p class="text-sm text-slate-600">
+            <span class="font-bold text-slate-800">Jane Doe</span>, C. Researcher.
+          </p>
+          <p class="text-xs font-medium text-slate-500 italic">Applied Physics Letters, 2024</p>
+          <div class="pt-2 flex gap-3 text-xs">
+            <a href="#" class="text-blue-600 hover:underline"><i class="fa-solid fa-link mr-1"></i>DOI</a>
+            <a href="#" class="text-blue-600 hover:underline"><i class="fa-solid fa-file-pdf mr-1"></i>Preprint</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teaching, Mentorship & Service -->
+    <section id="teaching" class="space-y-6">
+      <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3">Teaching & Academic Service</h2>
+      <ul class="space-y-3 text-sm text-slate-700">
+        <li class="flex items-start">
+          <i class="fa-solid fa-check text-blue-600 mt-1 mr-3 text-xs"></i>
+          <div><strong class="text-slate-900">Session Chair:</strong> 2D Nanomaterials Symposium, Materials Research Conference (2025).</div>
+        </li>
+        <li class="flex items-start">
+          <i class="fa-solid fa-check text-blue-600 mt-1 mr-3 text-xs"></i>
+          <div><strong class="text-slate-900">Guest Lecturer:</strong> Advanced Characterization Techniques (XPS/Raman), University Graduate Program (Fall 2024).</div>
+        </li>
+        <li class="flex items-start">
+          <i class="fa-solid fa-check text-blue-600 mt-1 mr-3 text-xs"></i>
+          <div><strong class="text-slate-900">Peer Reviewer:</strong> Evaluated submissions across physical chemistry and nanomaterials journals.</div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="space-y-4">
+      <h2 class="text-2xl font-bold text-slate-900 border-b border-slate-200 pb-3">Get in Touch</h2>
+      <p class="text-sm text-slate-600">
+        I am open to collaborative research projects, invited talks, and postdoctoral inquiries.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 pt-2">
+        <a href="mailto:jane.doe@university.edu" class="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-700">
+          <i class="fa-regular fa-envelope mr-2"></i> jane.doe@university.edu
+        </a>
+        <span class="hidden sm:inline text-slate-300">|</span>
+        <span class="text-sm text-slate-500">
+          <i class="fa-solid fa-location-dot mr-2"></i> Department of Physics, Science Complex 402
+        </span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="mt-20 border-t border-slate-200 bg-white py-6 text-center text-xs text-slate-500">
+    &copy; 2026 Jane Doe. Built with Tailwind CSS and hosted on GitHub Pages.
+  </footer>
+
+</body>
+</html>
